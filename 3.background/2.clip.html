@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>background-clip</title>
+<style>
+    div {
+        background-color: yellow;
+        width: 7rem;
+        height: 7rem;
+        margin: 1rem;
+        border: .5rem dotted;
+        padding: .3rem;
+    }
+
+    #one {
+        background-clip: border-box;
+    }
+
+    #two {
+        background-clip: padding-box;
+    }
+
+    #three {
+        background-clip: content-box;
+    }
+    /*과제: 너비 7em, 높이 7em 배경 ㄴ란색인 사각형 3개를 만들어라*/
+</style>
+</head>
+<body>
+    <div></div>
+    <div id='one'></div>
+    <div id='two'></div>
+    <div id='three'></div>
+</body>
+</html>

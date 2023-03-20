@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>descending selector</title>
+<style>/*상위element와 하위엘레먼트가 같이오면 디센딩 셀렉터이다.*/
+    section ul {
+        border: .1rem solid;
+    }/*chrme에선 1rem=16px이고 px은잘안쓰고 rem을 쓰는 추세이다.*/
+</style><!--하위 엘레먼트 전부적용한다.-->>
+</head>
+<body>
+    <section>
+        <ul>
+            <li>예약방법
+                <ul>
+                    <li>전화</li>
+                    <li>인터넷</li>
+                </ul>
+            </li>
+            <li>요금
+                <ul>
+                    <li>성수기: 20만원</li>
+                    <li>비수기: 10만원</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
